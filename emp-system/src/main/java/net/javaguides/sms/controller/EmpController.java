@@ -32,7 +32,7 @@ public class EmpController {
 	public String createEmpForm(Model model) {
 		//create a new instance
 		Emp emp = new Emp();
-		model.addAttribute("Employee", emp);
+		model.addAttribute("emp", emp);
 		return "create_emp";
 	}
 	
